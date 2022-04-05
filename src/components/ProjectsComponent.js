@@ -1,15 +1,13 @@
 import React from 'react';
-import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardTitle } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 function RenderProjects({project}) {
     return (
-        <Card>
+        <Card id="projects" className="d-flex align-items-stretch">
             <Link to={`/projects/${project.id}`}>
-                <CardImg src={project.image} alt={project.name} />
-                <CardImgOverlay>
-                    <CardTitle>{project.name}</CardTitle>
-                </CardImgOverlay>
+                <CardTitle>{project.name}</CardTitle>
+                <CardImg className="d-flex align-items-stretch h-100" id="directory" src={project.image1} alt={project.name} />
             </Link>
         </Card>
     );
@@ -19,7 +17,7 @@ function Projects(props) {
 
     const directory = props.projects.map(project => {
         return (
-            <div key={project.id} className="col-md-5 m-1">
+            <div key={project.id} className="col-md-3 mb-2">
                 <RenderProjects project={project} />
             </div>
         );

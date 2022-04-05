@@ -25,10 +25,15 @@ class Header extends Component {
             <React.Fragment>
                 <Navbar dark expand="sm">
                     <div className="container-fluid">
-                    <NavbarBrand className="mr-auto" href="/"><img src="assets/images/me.jpeg" height="50" width="50" alt="Me" />   GN</NavbarBrand>
+                    {/* <NavbarBrand className="mr-auto" href="/">GN</NavbarBrand> */}
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
-                            <Nav navbar>
+                            <Nav className="mx-auto" navbar>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/welcome">
+                                        <h5>Home</h5>
+                                    </NavLink>
+                                </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/about">
                                         <h5>About</h5>

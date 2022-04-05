@@ -3,14 +3,20 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.card-title {
-  font: 500 1.25rem "Lobster", cursive;
+#projects {
+  background-color: black;
+  /* width: 24vw;
+  height:20vw; */
 }
 
-.card-img-overlay .card-title {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-}
+/* .card-img, .card {
+  width: 24vw;
+  height: 24vw;
+} */
+/* 
+#directory {
+object-fit: cover;
+} */
 
 .navbar-dark p {
   padding: 0px;

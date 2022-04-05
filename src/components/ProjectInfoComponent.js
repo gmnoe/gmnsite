@@ -4,13 +4,21 @@ import { Card, CardImg, CardText, CardBody, Breadcrumb, BreadcrumbItem,
 
 function RenderProject({project}) {
     return (
-        <div className="col-md-5 m-1">
-                <Card>
-                    <CardImg top src={project.image} alt={project.name} />
-                    <CardBody>
-                        <CardText>{project.description}</CardText>
-                    </CardBody>
-                </Card>
+        <div className="container">
+            <div className="row">
+                <div className="col">
+                    <Card>
+                        <CardImg top src={project.image2} alt={project.name} />
+                    </Card>
+                </div>
+                <div className="col">
+                    <Card>
+                        <CardBody>
+                            <CardText>{project.description}</CardText>
+                        </CardBody>
+                    </Card>
+                </div>
+            </div>
         </div>
      );
 }
