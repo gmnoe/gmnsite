@@ -4,7 +4,7 @@ function About() {
     return (
         <div className="container-fluid">
             <div className="row row-content">
-                <img src="assets/images/me.jpeg" className="center-block" id="me" alt="Gregory Noethlich" />
+                <img src="/assets/images/smile.png" className="center-block" id="me" alt="Gregory Noethlich" />
             </div>
             <br></br><br></br><br></br><br></br>
             <div className="row row-content">
