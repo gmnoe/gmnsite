@@ -28,7 +28,7 @@ function Projects(props) {
             <div className="row">
                 <div className="col text-center">
                     <h2>Projects</h2>
-                    <hr />
+                    <hr className="hr"/>
                 </div>
             </div>
             <div className="row">

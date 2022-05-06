@@ -1,6 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* body {
+	background: linear-gradient(-45deg, #04060D, #D3D4D7);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
 body {
-  background-color: gray;
-  font-family: "Open Sans", sans-serif;
+  background-color: #04060D;
+  font-family: 'Montserrat', sans-serif;
+  color: #D3D4D7;
+  font-size: 1.25rem;
+}
+
+hr.hr {
+  border: 2px solid #3E8DE3;
+  border-radius: 5px;
 }
 
 #projects {
@@ -8,6 +35,33 @@ body {
   /* width: 24vw;
   height:20vw; */
 }
+
+#name {
+  font-size: 13vw;
+}
+
+.welcome {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.btn {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background-color: #143AA2;
+  border-color: #3E8DE3;
+  color:#D3D4D7;
+}
+
+.btn:hover {
+  background-color: #3E8DE3;
+  border-color: #143AA2;
+  color: #04060D;
+}
+
 
 /* .card-img, .card {
   width: 24vw;
@@ -24,10 +78,11 @@ object-fit: cover;
 }
 
 .navbar-dark {
-  background: blue;
+  background-image: linear-gradient(#143AA2, #3E8DE3);
 }
 
 #me {
+  height: 30vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -40,3 +95,55 @@ object-fit: cover;
   text-align: center;
 }
 
+.page-enter {
+  opacity: 0;
+}
+
+.page-enter-active {
+  opacity: 1;
+  transition: 300ms ease-out;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: 300ms ease-in;
+}
+
+.fade-in-text {
+  font-family: 'Montserrat', sans-serif;
+  color: #D3D4D7;
+  animation: fadeIn linear 5s;
+  -webkit-animation: fadeIn linear 5s;
+  -moz-animation: fadeIn linear 5s;
+  -o-animation: fadeIn linear 5s;
+  -ms-animation: fadeIn linear 5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+} 

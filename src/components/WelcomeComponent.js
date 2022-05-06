@@ -1,28 +1,41 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Button } from 'reactstrap';
+import { FadeTransform } from 'react-animation-components';
 
 function Welcome() {
     return (
-        <div className="container-fluid align-items-center">
-            <div className="row d-flex my-auto">
-                <div className="col-12 text-center">
-                    <h1>Welcome. My Name is Greg.</h1>
+        <div className="container-fluid welcome">
+            <div className="row">
+                <div className="col text-center fade-in-text">
+                    <h1 id="name">Greg Noethlich</h1>
                 </div>
             </div>
             <div className="row">
-                <div className="col text-center">
+                <div className="col text-center fade-in-text">
                     <h3>Developer, Programmer, Creator.</h3>
                 </div>
             </div>
-            <div className="row justify-content-center">
+            <div className="row justify-content-center fade-in-text">
                     <NavLink className="nav-link" to="/about">
-                        <h5>About</h5>
+                        <Button>
+                            <h5>About</h5>
+                        </Button>
+                    </NavLink>
+                    <NavLink className="nav-link" to="/skills">
+                        <Button>
+                            <h5>My Skills</h5>
+                        </Button>
                     </NavLink>
                     <NavLink className="nav-link" to="/projects">
-                        <h5>Projects</h5>
+                        <Button>
+                            <h5>Projects</h5>
+                        </Button>
                     </NavLink>
                     <NavLink className="nav-link" to="/contact">
-                        <h5>Contact</h5>
+                        <Button>
+                            <h5>Contact</h5>
+                        </Button>
                     </NavLink>
             </div>
         </div>
