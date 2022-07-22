@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Button, Label, Col, Row } from 'reactstrap';
-import { Link } from 'react-router-dom';
 import { Control, LocalForm, Errors } from 'react-redux-form';
 
 const required = val => val && val.length;
@@ -34,7 +33,7 @@ class Contact extends Component {
     render() {
         return (
             <div className="container">
-                <br /> <br />
+                <br />
                 <div className="row row-content">
                     <div className="col-12">
                         <h1 className="text-center">Contact Me</h1>

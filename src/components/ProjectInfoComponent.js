@@ -1,25 +1,29 @@
-import React, { Component } from 'react';
-import { Card, CardImg, CardText, CardBody, Breadcrumb, BreadcrumbItem, 
-    Button, Modal, ModalHeader, ModalBody, Label } from 'reactstrap';
+import React from 'react';
+import { Link } from 'react-router-dom'; 
+import { Card, CardImg, Button } from 'reactstrap';
 
 function RenderProject({project}) {
     return (
         <div className="container">
+            <br />
             <div className="row justify-content-center">
-                    <Card>
-                        <CardImg top src={project.image2} alt={project.name} />
-                    </Card>
-                </div>
-                <div className="row text-center">
-                    <p>
+                <Card>
+                    <CardImg top src={project.image2} alt={project.name} />
+                </Card>
+            </div>
+            <div className="row text-center">
+                <p>
                     {project.description}
-                    </p>
-                    {/* <Card>
-                        <CardBody>
-                            <CardText>{project.description}</CardText>
-                        </CardBody>
-                    </Card> */}
-                </div>
+                </p>
+            </div>
+            <div className="row">
+                <a href={project.github} target="_blank" rel="">
+                    <Button>
+                        <h5>GithHub: {project.name}</h5>
+                    </Button>
+                </a>
+            </div>
+            <br />
         </div>
      );
 }
@@ -27,6 +31,7 @@ function RenderProject({project}) {
 function ProjectInfo(props) {
     return (
         <div className="container">
+            <br />
             <div className="row">
                 <div className="col text-center">
                     <h2>{props.project.name}</h2>

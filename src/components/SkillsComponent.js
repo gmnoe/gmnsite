@@ -1,42 +1,65 @@
 import React from 'react';
+import SimpleCloud from './SkillCloudComponent';
 
 function Skills(props) {
+
     return (
         <div className="container">
+            <br />
             <div className="row">
                 <div className="col text-center">
                     <h1>Skills</h1>
                 </div>
             </div>
+                <hr className="hr" />
+            <div className="row">
+                    <SimpleCloud/>
+            </div>
             <hr className="hr" />
             <div className="row">
-                <p>
-                Since beginning my journey as a freelance developer nearly 10 years ago, I’ve done remote work for agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.
+                <div className="col">
+                    <p>
+                        I use <b>HTML</b> and <b>CSS</b> in every project I do.  The <b>Bootstrap</b> framework is excellent for assisting in <b>responsive web design</b> and limiting the amount of code needed in my <b>CSS</b> file.
+                        <br/><br/>
+                        <b>JavaScript</b> is my programming language of choice. I have use <b>React</b> to create front end web applications. <b>Redux</b> is a great tool used to manage state within my <b>React</b> applications, as well as improving performance and maintaining code. I use <b>Nodejs</b> with the <b>Express</b> framework to create <b>RESTFUL API&#39;s</b>.  Utilizing <b>MongoDB</b> for the database and testing with <b>Postman</b>.
+                        <br/><br/>
+                        I have used <b>React Native</b> along with the <b>Expo SDK</b> to create a mobile application.
+                        <br/><br/>
+                        I use <b>Git</b> for all my programming work and submit working and finished projects to <b>Github</b>. All of my coding is written in the <b>Virtual Studio Code</b> text editor.
+                    </p>
+                </div>
+            </div>
+            <hr className="hr" />
+            <div className="row">
+                <div className="col">
+                    <h3>Technical Skills</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS &#40;Bootstrap&#41;</li>
+                            <li>JavaScript &#40;Reactjs, Nodejs, jQuery, ES6, Redux, React Native&#41; </li>
+                            <li>Expressjs, MongoDB, Postman</li>
+                            <li>Responsive Web Design</li>
+                            <li>RESTful API's</li>
+                            <li>XML and JSON</li>
+                            <li>Git and Github</li>
+                            <li>Virtual Studio Code</li>
 
-I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.
-
-I also have full-stack developer experience with popular open-source CMS like (WordPress, Drupal, Magento, Keystone.js and others) .
-
-Visit my LinkedIn profile for more details or just contact me.
-
-                </p>
-                <p>
-                I use HTML & CSS (usually SASS) every day, and I try to keep up with the latest features while maintaining graceful degradation.
-
-I use JavaScript fairly often, usually with jQuery. I also run Node.js-based workflow automation via Gulp or Grunt for web projects, and I’ve written other Node scripts to automate mundane tasks.
-
-My main server-side language is PHP, quite often paired with MySQL. I usually use WordPress for client sites, depending on requirements. I specialize in custom themes, and have also built custom plugins for unique functionality.
-
-I’ve developed several iOS and Android apps, both using native code and a JavaScript-based framework called Titanium SDK.
-
-I learned ActionScript 3.0 when it first came out, when Flash was still ubiquitous and mobile devices were scarce. I’ve also dabbled with Haxe during Ludum Dare challenges.
-
-I use Git for all of my programming work. Check out my GitHub page for random projects and contributions to other open source projects.
-
-I primarily use GitHub’s Atom text editor for coding.
-
-I maintain my own Linux server at home (Ubuntu) that acts as a staging site for project websites.
-                </p>
+                        </ul>
+                </div>
+                <div className="col">
+                    <h3>Soft (Real) Skills</h3>
+                        <ul>
+                            <li>People-person with a friendly attitude</li>
+                            <li>Efficient and effective communicator</li>
+                            <li>Self-organized and able to work independently</li>
+                            <li>Great time management</li>
+                            <li>Hunger for excellence</li>
+                            <li>Able to retain and apply new knowledge</li>
+                            <li>Strong work ethic</li>
+                            <li>Open to receiving clear and useful criticism</li>
+                            <li>Always curious and humble</li>
+                        </ul>
+                </div>
             </div>
         </div>
     );

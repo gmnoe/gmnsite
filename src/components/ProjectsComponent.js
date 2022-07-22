@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 function RenderProjects({project}) {
     return (
         <Card id="projects" className="d-flex align-items-stretch">
-            <Link to={`/projects/${project.id}`}>
-                <CardTitle>{project.name}</CardTitle>
+            <Link to={`/projects/${project.id}`} style={{ textDecoration: 'none'}}>
+                <CardTitle className="text-center">{project.name}</CardTitle>
                 <CardImg className="d-flex align-items-stretch h-100" id="directory" src={project.image1} alt={project.name} />
             </Link>
         </Card>
