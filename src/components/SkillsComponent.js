@@ -1,5 +1,5 @@
 import React from 'react';
-import SimpleCloud from './SkillCloudComponent';
+import SkillCloud from './SkillCloudComponent';
 
 function Skills(props) {
 
@@ -12,22 +12,23 @@ function Skills(props) {
                 </div>
             </div>
                 <hr className="hr" />
-            <div className="row">
-                    <SimpleCloud/>
+            {/* <div className="row">
+                    <SkillCloud />
             </div>
-            <hr className="hr" />
+            <hr className="hr" /> */}
             <div className="row">
                 <div className="col">
                     <p>
                         I use <b>HTML</b> and <b>CSS</b> in every project I do.  The <b>Bootstrap</b> framework is excellent for assisting in <b>responsive web design</b> and limiting the amount of code needed in my <b>CSS</b> file.
                         <br/><br/>
-                        <b>JavaScript</b> is my programming language of choice. I have use <b>React</b> to create front end web applications. <b>Redux</b> is a great tool used to manage state within my <b>React</b> applications, as well as improving performance and maintaining code. I use <b>Nodejs</b> with the <b>Express</b> framework to create <b>RESTFUL API&#39;s</b>.  Utilizing <b>MongoDB</b> for the database and testing with <b>Postman</b>.
-                        <br/><br/>
-                        I have used <b>React Native</b> along with the <b>Expo SDK</b> to create a mobile application.
+                        <b>JavaScript</b> is my programming language of choice. I use <b>React</b> to create front end web applications. <b>Redux</b> is a great tool used to manage state within my <b>React</b> applications, as well as improving performance and maintaining code.  I use <b>React Native</b> along with the <b>Expo SDK</b> to create a mobile applications.  For back end I use <b>Nodejs</b> with the <b>Express</b> framework to create <b>RESTFUL API&#39;s</b>, utilizing <b>MongoDB</b> for the database and testing with <b>Postman</b>.
                         <br/><br/>
                         I use <b>Git</b> for all my programming work and submit working and finished projects to <b>Github</b>. All of my coding is written in the <b>Virtual Studio Code</b> text editor.
                     </p>
                 </div>
+                {/* <div className="col align-self-center">
+                    <SkillCloud />
+                </div> */}
             </div>
             <hr className="hr" />
             <div className="row">

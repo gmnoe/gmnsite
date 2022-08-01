@@ -32,7 +32,7 @@ const options = {
 const SkillCloud = () => (
   <TagCloud
     minSize={20}
-    maxSize={35}
+    maxSize={58}
     tags={data}
     style={{ textAlign: 'center'}}
     colorOptions={options}

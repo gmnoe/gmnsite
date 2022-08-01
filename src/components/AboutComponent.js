@@ -11,7 +11,7 @@ function About() {
             </div>
             <hr className="hr" />
             <div className="row row-content">
-                <img src="/assets/images/me.jpeg" className="center-block" id="me" alt="Gregory Noethlich" />
+                <img src="/assets/images/me.png" className="center-block" id="me" alt="Gregory Noethlich" />
             </div>
             <br/>
             <div className="row row-content">
@@ -24,7 +24,7 @@ function About() {
 
                         <br/><br/>
 
-                        The biggest skills that have been refined through software development are problem solving and adaptability. I am a fast learner and able to pick up new skills and apply them effectively and efficiently. I prefer to keep learning, challenging myself, and creating things that matter.
+                        The biggest skills that have been refined through software development are problem solving and adaptability. I am a fast learner and able to pick up new skills and apply them effectively and efficiently. I prefer to keep learning, challenging myself, and creating.
                     </p>
                     <br></br><br></br><br></br>
                 </div>

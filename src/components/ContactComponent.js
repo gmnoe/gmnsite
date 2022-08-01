@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Label, Col, Row } from 'reactstrap';
 import { Control, LocalForm, Errors } from 'react-redux-form';
+// import emailjs from 'emailjs-com';
 
 const required = val => val && val.length;
 const maxLength = len => val => !val || (val.length <= len);
@@ -9,6 +10,7 @@ const isNumber = val => !isNaN(+val);
 const validEmail = val => /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(val);
 
 class Contact extends Component {
+
     constructor(props) {
         super(props);
         this.state = {
@@ -26,11 +28,35 @@ class Contact extends Component {
         };
         this.handleSubmit = this.handleSubmit.bind(this);
     }
+
     handleSubmit(values) {
         console.log('Current state is: ' + JSON.stringify(values));
         alert('Current state is: ' + JSON.stringify(values));
     }
+
     render() {
+        // const form = useRef();
+
+        // const sendEmail = (e) => {
+        //     e.preventDefault();
+         
+        //     emailjs.sendForm(
+        //         process.env.REACT_APP_SERVICE_ID,
+        //         process.env.REACT_APP_TEMPLATE_ID,
+        //         form.current,
+        //         process.env.REACT_APP_USER_ID
+        //       ).then(
+        //         result => {
+        //           console.log(result.text);
+        //         },
+        //         error => {
+        //           console.log(error.text);
+        //         }
+        //       );
+
+        //       e.target.reset();
+        //   };
+
         return (
             <div className="container">
                 <br />
@@ -40,11 +66,12 @@ class Contact extends Component {
                         <hr className="hr" />
                     </div>
                     <div className="col-md-10">
+                        {/* <LocalForm ref={form} onSubmit={sendEmail}> */}
                         <LocalForm onSubmit={values => this.handleSubmit(values)}>
                             <Row className="form-group">
-                                <Label htmlFor="firstName" md={2}>First Name: </Label>
+                                <Label htmlFor=".firstName" md={2}>First Name: </Label>
                                 <Col md={10}>
-                                    <Control.text model=".firstName" id="firstName" name="firstName"
+                                    <Control.text model=".firstName" id=".firstName" name="firstName"
                                         placeholder="First Name"
                                         className="form-control"
                                         validators={{

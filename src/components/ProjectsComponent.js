@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardImg, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardTitle, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 function RenderProjects({project}) {
@@ -20,11 +20,13 @@ function Projects(props) {
             <div key={project.id} className="col-md-3 mb-2">
                 <RenderProjects project={project} />
             </div>
+
         );
     });
 
     return (
         <div className="container-fluid">
+            <br />
             <div className="row">
                 <div className="col text-center">
                     <h2>Projects</h2>
@@ -34,6 +36,15 @@ function Projects(props) {
             <div className="row">
                 {directory}
             </div>
+            <br />
+            <div className="row justify-content-center">
+                <a href="https://github.com/gmnoe/gmnsite" target="_blank" rel="external">
+                    <Button>
+                        <h5>Code Source for this application</h5>
+                    </Button>
+                </a>
+            </div>
+            <br />
         </div>
     );
 }

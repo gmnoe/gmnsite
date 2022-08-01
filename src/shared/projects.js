@@ -1,14 +1,6 @@
 export const PROJECTS = [
     {
         id: 0,
-        name: "Portfolio Site (React.js)",
-        image1: "assets/images/portfolioHome.png",
-        image2: "assets/images/portfolioHome.png",
-        description: "A website for me by me.",
-        github: "https://github.com/gmnoe/gmnsite"
-    },
-    {
-        id: 1,
         name: "Kokomo (React.js)",
         image1: "/assets/images/kokomocover.png",
         image2: "/assets/images/kokomoReact.png",
@@ -16,7 +8,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/kokomoReact"
     },
     {
-        id: 2,
+        id: 1,
         name: "NuCamp Site(React.js)",
         image1: "/assets/images/NucampCover.png",
         image2: "/assets/images/NuCampReact.png",
@@ -24,7 +16,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/greg-react-nucampsite"
     },
     {
-        id: 3,
+        id: 2,
         name: "Kokomo (HTML and Bootstrap)",
         image1: "/assets/images/kokomoCover.png",
         image2: "/assets/images/kokomoBootstrap.png",
@@ -32,7 +24,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/NuCampProject"
     },
     {
-        id: 4,
+        id: 3,
         name: "NuCamp Site(Bootstrap)",
         image1: "/assets/images/NucampCover.png",
         image2: "/assets/images/NucampBootstrap.png",
@@ -40,7 +32,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/greg-bootstrap-nucamp"
     },
     {
-        id: 5,
+        id: 4,
         name: "The Living Door",
         image1: "/assets/images/theLivingDoorCover.png",
         image2: "/assets/images/theLivingDoorSite.png",
@@ -48,7 +40,7 @@ export const PROJECTS = [
         github:"https://thelivingdoor.com/"
     },
     {
-        id: 6,
+        id: 5,
         name: "Pebblesmith Fine Art",
         image1: "/assets/images/brando2.jpg",
         image2: "/assets/images/pebbleSmith.png",
@@ -56,7 +48,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/pebblesmithfineart"
     },
     {
-        id: 7,
+        id: 6,
         name: "NuCamp Site Server",
         image1: "/assets/images/NucampCover.png",
         image2: "/assets/images/nucampServer.png",
@@ -64,7 +56,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/nucampsiteServer"
     },
     {
-        id: 8,
+        id: 7,
         name: "GitHub Finder",
         image1: "/assets/images/githubCover.png",
         image2: "/assets/images/githubFinder.png",
@@ -72,7 +64,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/githubfinderapp"
     },
     {
-        id: 9,
+        id: 8,
         name: "Matching Game",
         image1: "/assets/images/smile.png",
         image2: "/assets/images/matchingGame.png",
@@ -80,7 +72,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/matchingGame"
     },
     {
-        id: 10,
+        id: 9,
         name: "Book List",
         image1: "/assets/images/bookListCover.jpg",
         image2: "/assets/images/bookList.png",
@@ -88,7 +80,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/booklist"
     },
     {
-        id: 11,
+        id: 10,
         name: "Color Guessing Game",
         image1: "/assets/images/colorGuesserCover.png",
         image2:"/assets/images/colorGuesserCover.png",
@@ -96,7 +88,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/colorGuessingGame"
     },
     {
-        id: 12,
+        id: 11,
         name: "Loan Calculator",
         image1: "/assets/images/loanCalculatorCover.jpg",
         image2: "/assets/images/loanCalculator.png",
@@ -104,7 +96,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/loanCalculator"
     },
     {
-        id: 13,
+        id: 12,
         name: "Task List",
         image1: "/assets/images/taskListCover.jpg",
         image2: "/assets/images/taskList.png",

@@ -16,10 +16,10 @@ function RenderProject({project}) {
                     {project.description}
                 </p>
             </div>
-            <div className="row">
-                <a href={project.github} target="_blank" rel="">
+            <div className="row justify-content-center">
+                <a href={project.github} target="_blank" rel="external">
                     <Button>
-                        <h5>GithHub: {project.name}</h5>
+                        <h5>{project.name}</h5>
                     </Button>
                 </a>
             </div>

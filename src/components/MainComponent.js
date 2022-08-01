@@ -5,7 +5,8 @@ import About from './AboutComponent';
 import Skills from './SkillsComponent';
 import Projects from './ProjectsComponent';
 import ProjectInfo from './ProjectInfoComponent';
-import Contact from './ContactComponent';
+import ContactMe from './ContactMeComponent';
+// import Contact from './ContactComponent';
 import Welcome from './WelcomeComponent';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
@@ -39,7 +40,7 @@ class Main extends Component {
                         <Route exact path='/skills' component={Skills} />
                         <Route exact path='/projects' render={() => <Projects projects={this.state.projects} />} />
                         <Route path='/projects/:projectId' component={ProjectWithId} />
-                        <Route exact path='/contact' component={Contact} />
+                        <Route exact path='/contact' component={ContactMe} />
                         <Redirect to='/welcome' />
                     </Switch>
                 </CSSTransition>
