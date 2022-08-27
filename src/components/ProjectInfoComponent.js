@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; 
 import { Card, CardImg, Button } from 'reactstrap';
 
 function RenderProject({project}) {
@@ -17,7 +16,7 @@ function RenderProject({project}) {
                 </p>
             </div>
             <div className="row justify-content-center">
-                <a href={project.github} target="_blank" rel="external">
+                <a href={project.github} target="_blank" rel="noreferrer">
                     <Button>
                         <h5>{project.name}</h5>
                     </Button>

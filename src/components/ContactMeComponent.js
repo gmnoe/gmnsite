@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Button, Label, Col, Row } from 'reactstrap';
+import { Input, Label, Col, Row } from 'reactstrap';
 import { Control, LocalForm, Errors } from 'react-redux-form';
 import emailjs from 'emailjs-com';
 
@@ -13,12 +13,12 @@ function ContactMe () {
         const form = useRef();
 
         const sendEmail = (e) => {
-            // e.preventDefault();
+            e.preventDefault();
          
             emailjs.sendForm(
                 process.env.REACT_APP_SERVICE_ID,
                 process.env.REACT_APP_TEMPLATE_ID,
-                form.current,
+                '#contact-form',
                 process.env.REACT_APP_USER_ID
               ).then(
                 result => {
@@ -28,8 +28,8 @@ function ContactMe () {
                   console.log(error.text);
                 }
               );
-
-              e.target.reset();
+            const contactForm = document.querySelector('#contact-form');
+                contactForm.reset ();
           };
 
   return (
@@ -41,7 +41,7 @@ function ContactMe () {
             <hr className="hr" />
         </div>
         <div className="col-md-10">
-            <LocalForm ref={form} onSubmit={sendEmail}>
+            <LocalForm ref={form} onSubmit={sendEmail} id="contact-form">
                 <Row className="form-group">
                     <Label htmlFor=".firstName" md={2}>First Name: </Label>
                     <Col md={10}>
@@ -153,9 +153,8 @@ function ContactMe () {
                 </Row>
                 <Row className="form-group">
                     <Col md={{size: 10, offset: 2}}>
-                        <Button type="submit" color="info">
-                            Send Message
-                        </Button>
+                        <Input className="btn" type="submit" onClick={sendEmail} value="Send Message">
+                        </Input>
                     </Col>
                 </Row>
             </LocalForm>

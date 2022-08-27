@@ -38,7 +38,7 @@ function Projects(props) {
             </div>
             <br />
             <div className="row justify-content-center">
-                <a href="https://github.com/gmnoe/gmnsite" target="_blank" rel="external">
+                <a href="https://github.com/gmnoe/gmnsite" target="_blank" rel="noreferrer">
                     <Button>
                         <h5>Code Source for this application</h5>
                     </Button>
