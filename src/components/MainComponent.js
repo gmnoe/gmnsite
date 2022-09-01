@@ -6,7 +6,6 @@ import Skills from './SkillsComponent';
 import Projects from './ProjectsComponent';
 import ProjectInfo from './ProjectInfoComponent';
 import ContactMe from './ContactMeComponent';
-// import Contact from './ContactComponent';
 import Welcome from './WelcomeComponent';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
