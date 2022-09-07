@@ -123,12 +123,3 @@ hr.hr {
   transition: 300ms ease-in;
 }
 
-.tagcloud {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-weight: 650;
-  margin-left: 30%;
-}
-.tagcloud--item:hover {
-  color: #36454F;
-}
