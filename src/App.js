@@ -11,8 +11,8 @@ class App extends Component {
             <BrowserRouter>
                 <div className="App">
                     <Helmet>
-                        <title>Greg Noethlich</title>
-                        <meta name="description" content="Greg Noethlich" />
+                        <title>Gregory Noethlich</title>
+                        <meta name="description" content="Gregory Noethlich" />
                     </Helmet>
                     <Main />
                 </div>
