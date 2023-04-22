@@ -18,6 +18,7 @@ hr.hr {
   background-color: #04060D;
   border-color: #143AA2;
   border-width: 5px;
+  border-radius: 12px;
 }
 
 #projects:hover {

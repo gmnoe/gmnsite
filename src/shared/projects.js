@@ -1,6 +1,22 @@
 export const PROJECTS = [
     {
         id: 0,
+        name: "eComm (React.js)",
+        image1: "/assets/images/ecomm.png",
+        image2: "/assets/images/ecomm2.png",
+        description: "An ecommerce application with products, cart functionality, and forms for sign-in or registration. This application was developed with React.js and utilizes Redux for state management. Styling is done with a combination of CSS and the Reactstrap library.",
+        github:"https://github.com/gmnoe/eCommerce"
+    },
+    {
+        id: 1,
+        name: "Spotipython (Python, SQL)",
+        image1: "/assets/images/spotipython.png",
+        image2: "/assets/images/spotipython.png",
+        description: "A database project made around the idea of a music application. This project was intended to get experience with structuring and implementing a database. I first drew an entity-relationship diagram and then used SQL to create the tables and populate them with data. An object-relational mapping approach was then used with SQLAlchemy and Python.",
+        github:"https://github.com/gmnoe/spotifpython_sql"
+    },
+    {
+        id: 2,
         name: "Kokomo (React.js)",
         image1: "/assets/images/kokomocover.png",
         image2: "/assets/images/kokomoReact.png",
@@ -8,7 +24,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/kokomoReact"
     },
     {
-        id: 1,
+        id: 3,
         name: "NuCamp Site(React.js)",
         image1: "/assets/images/NucampCover.png",
         image2: "/assets/images/NuCampReact.png",
@@ -16,7 +32,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/greg-react-nucampsite"
     },
     {
-        id: 2,
+        id: 4,
         name: "Kokomo (HTML and Bootstrap)",
         image1: "/assets/images/kokomoCover.png",
         image2: "/assets/images/kokomoBootstrap.png",
@@ -24,7 +40,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/NuCampProject"
     },
     {
-        id: 3,
+        id: 5,
         name: "NuCamp Site(Bootstrap)",
         image1: "/assets/images/NucampCover.png",
         image2: "/assets/images/NucampBootstrap.png",
@@ -32,7 +48,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/greg-bootstrap-nucamp"
     },
     {
-        id: 4,
+        id: 6,
         name: "The Living Door",
         image1: "/assets/images/theLivingDoorCover.png",
         image2: "/assets/images/theLivingDoorSite.png",
@@ -40,7 +56,7 @@ export const PROJECTS = [
         github:"https://thelivingdoor.com/"
     },
     {
-        id: 5,
+        id: 7,
         name: "Pebblesmith Fine Art",
         image1: "/assets/images/brando2.jpg",
         image2: "/assets/images/pebbleSmith.png",
@@ -48,7 +64,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/pebblesmithfineart"
     },
     {
-        id: 6,
+        id: 8,
         name: "NuCamp Site Server",
         image1: "/assets/images/NucampCover.png",
         image2: "/assets/images/nucampServer.png",
@@ -56,7 +72,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/nucampsiteServer"
     },
     {
-        id: 7,
+        id: 9,
         name: "GitHub Finder",
         image1: "/assets/images/githubCover.png",
         image2: "/assets/images/githubFinder.png",
@@ -64,7 +80,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/githubfinderapp"
     },
     {
-        id: 8,
+        id: 10,
         name: "Matching Game",
         image1: "/assets/images/smile.png",
         image2: "/assets/images/matchingGame.png",
@@ -72,7 +88,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/matchingGame"
     },
     {
-        id: 9,
+        id: 11,
         name: "Book List",
         image1: "/assets/images/bookListCover.jpg",
         image2: "/assets/images/bookList.png",
@@ -80,7 +96,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/booklist"
     },
     {
-        id: 10,
+        id: 12,
         name: "Color Guessing Game",
         image1: "/assets/images/colorGuesserCover.png",
         image2:"/assets/images/colorGuesserCover.png",
@@ -88,7 +104,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/colorGuessingGame"
     },
     {
-        id: 11,
+        id: 13,
         name: "Loan Calculator",
         image1: "/assets/images/loanCalculatorCover.jpg",
         image2: "/assets/images/loanCalculator.png",
@@ -96,7 +112,7 @@ export const PROJECTS = [
         github:"https://github.com/gmnoe/loanCalculator"
     },
     {
-        id: 12,
+        id: 14,
         name: "Task List",
         image1: "/assets/images/taskListCover.jpg",
         image2: "/assets/images/taskList.png",
