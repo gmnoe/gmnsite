@@ -25,7 +25,7 @@ export const PROJECTS = [
     },
     {
         id: 3,
-        name: "NuCamp Site(React.js)",
+        name: "NuCamp Site (React.js)",
         image1: "/assets/images/NucampCover.png",
         image2: "/assets/images/NuCampReact.png",
         description: "A web application created for a campground. The application allows for the user to login, view campground information, post comments on campgrounds, and contact the campground. The application was developed using React.js and Redux.",
@@ -33,7 +33,7 @@ export const PROJECTS = [
     },
     {
         id: 4,
-        name: "Kokomo (HTML and Bootstrap)",
+        name: "Kokomo (Bootstrap)",
         image1: "/assets/images/kokomoCover.png",
         image2: "/assets/images/kokomoBootstrap.png",
         description: "Kokomo is a restaurant web application I developed to display information about the company and allow the user to reserve a table, contact the company, and order food. This is the first version I did using only HTML and CSS with the assistance of the Bootstrap framework.",
@@ -41,7 +41,7 @@ export const PROJECTS = [
     },
     {
         id: 5,
-        name: "NuCamp Site(Bootstrap)",
+        name: "NuCamp Site (Bootstrap)",
         image1: "/assets/images/NucampCover.png",
         image2: "/assets/images/NucampBootstrap.png",
         description: "A website created for a campground in which the user can view information, reserve a campsite, and contact the campground.  The site was developed with HTML and CSS with assistance from the Bootstrap Framework.",
@@ -49,7 +49,7 @@ export const PROJECTS = [
     },
     {
         id: 6,
-        name: "The Living Door",
+        name: "The Living Door (WordPress)",
         image1: "/assets/images/theLivingDoorCover.png",
         image2: "/assets/images/theLivingDoorSite.png",
         description: "A website for an interior design and construction company. The project was developed with WordPress and Elementor.",
@@ -57,7 +57,7 @@ export const PROJECTS = [
     },
     {
         id: 7,
-        name: "Pebblesmith Fine Art",
+        name: "Pebblesmith Fine Art (React.js, CSS)",
         image1: "/assets/images/brando2.jpg",
         image2: "/assets/images/pebbleSmith.png",
         description: "Pebblesmith Fine Art is a project I started for my friend's artwork.  The landing page of this site allowed me to gain experience with different CSS effects. I utilized a fade-in effect and linear-gradient applied to text to produce a metallic shine. ",
@@ -65,7 +65,7 @@ export const PROJECTS = [
     },
     {
         id: 8,
-        name: "NuCamp Site Server",
+        name: "NuCamp Site Server (JavaScript, MongoDB)",
         image1: "/assets/images/NucampCover.png",
         image2: "/assets/images/nucampServer.png",
         description: "A RESTful API server that was created with Express and Node.js to function as the backend programming for a web application concerning a campground. HTTP requests would be sent from the client to server endpoints then be translated into database CRUD operations on the Mongo database. User authentication was also employed so that certain requests would only be successful for certain users on the server.",
